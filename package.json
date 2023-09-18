@@ -1,0 +1,28 @@
+{
+  "name": "pm_22_10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kopystianska",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kopystianska/pm_22_10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kopystianska/pm_22_10/issues"
+  },
+  "homepage": "https://github.com/kopystianska/pm_22_10#readme",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "concat": "^1.0.3",
+    "cssnano": "^6.0.1",
+    "imagemin": "^8.0.1",
+    "rename": "^1.0.4",
+    "sass": "^1.67.0",
+    "uglify": "^0.1.5"
+  }
+}
