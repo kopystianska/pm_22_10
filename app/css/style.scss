@@ -1,0 +1,692 @@
+$color_1: #edf0f5;;
+$color_2: #f1f2f2;
+$color_3: #414042;
+$color_4: #626262;
+$font-family_1: 'Lato', sans-serif;
+$font-family_2: "Material", sans-serif;
+$background-color_1: #313131;
+$background-color_2: #414042;
+$background-color_3: #188ae2;
+$background-color_4: #323133;
+$background-color_5: #0b76c9;
+$background-color_6: #dfdfdf;
+$background-color_7: #e6e7e8;
+$background-color_8: #ff5b5b;
+$background-color_9: #10c469;
+$background-color_10: #ffffff;
+$background-color_11: #414042;
+
+
+body {
+    background: $color_1;
+    overflow-x:hidden;
+}
+
+.mainWrapper {
+    display: flex;
+}
+// -------------- LeftSideSection --------------
+
+.userText {
+    font-family: $font-family_1;
+    font-size: 23px;
+    line-height: 10vh;
+    color: $color_2;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.topBg {
+    width: 320px;
+    height: 80px;
+    filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.09));
+    background-color: $background-color_1;
+    display: flex;
+    padding: 0 20px 0 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.LeftSideSection {
+    padding-top: 15px;
+    width: 320px;
+    height: 181vh;
+    background-color: $background-color_2;
+}
+
+.blueColorBg {
+    width: 320px;
+    height: 50px;
+    background-color: $background-color_3;
+    display: flex;
+}
+.icons {
+    width: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 21px;
+    color: $color_2;
+    font-family: $font-family_2;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 10px;
+    color: $color_2;
+    font-weight: 400;
+    margin: 15px 20px 10px 10px;
+    font-family: $font-family_1;
+}
+.wrapper {
+    width: 205px;
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+.greyColorBg {
+    width: 320px;
+    height: 50px;
+    display: flex;
+}
+.greyOptions {
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 25px;
+    color: $color_2;
+    font-weight: 400;
+    font-family: $font-family_1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 15px;
+}
+.greyLine {
+    width: 320px;
+    height: 1px;
+    background-color: $background-color_4;
+    margin-top: 15px;
+}
+
+// -------------- BlueSection --------------
+
+.BlueBG {
+    display: flex;
+    width: 1630px;
+    height: 80px;
+    filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.09));
+    background-color: $background-color_3;
+}
+.BG {
+    width: 230px;
+    height: 40px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: $background-color_5;
+}
+
+.Search {
+    flex-basis: 78%;
+}
+.Search_text {
+    margin: -28px 0 0 15px;
+    font-size: 17px;
+    font-weight: 300;
+    color: $color_2;
+    font-family: $font-family_1;
+}
+
+.Search_icon {
+    font-size: 20px;
+    line-height: 35px;
+    color: $color_2;
+    font-family: $font-family_2;
+    text-align: right;
+    margin-right: 15px;
+}
+.Administrator {
+    width: 215px;
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+}
+.PhotoOfAdministrator {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.Setting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.IconsAdministrator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+// -------------- RightSideSection --------------
+
+.RightSideSection {
+    width: 330px;
+    height: 181vh;
+    background-color: $background-color_7;
+    display: flex;
+    align-self: flex-start;
+
+}
+.TitleText {
+    font-size: 17px;
+    line-height: 10px;
+    color: $color_3;
+    font-weight: 500;
+    font-family: $font-family_1;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Person{
+    display: flex;
+    margin-left: 30px;
+}
+
+.PhotoOfPerson{
+    width: 45px;
+    height: 45px;
+    display: flex;
+}
+
+.TextOfPerson{
+    width: 160px;
+    font-size: 17px;
+    line-height: 30px;
+    color: $background-color_2;
+    font-weight: 400;
+    font-family: $font-family_1;
+}
+
+.TextTimeAgo{
+    font-size: 12px;
+    line-height: 10px;
+    color: $background-color_2;
+    font-weight: 300;
+    font-family: $font-family_1;
+}
+
+.GreenPoint{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items:end;
+    margin-top: 20px;
+
+}
+.Administrator {
+    flex-basis: 22%;
+    display: flex;
+    align-items: center;
+
+}
+.Administrator_Person {
+    display: flex;
+
+}
+
+.NameOfAdministrator {
+    text-align: center;
+    font-size: 17px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: $font-family_1;
+}
+
+.TextAdministrator {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 0;
+    text-align: left;
+}
+
+// -------------------------- MainSection --------------------------
+
+// -------------- Summary --------------
+.Summary {
+    margin-top: 20px;
+    height: 170px;
+    width: 1263px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.UserStatus {
+    width: 330px;
+    height: 130px;
+    filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.09));
+    background-color: $background-color_3;
+}
+
+.Sales {
+    width: 330px;
+    height: 130px;
+    filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.09));
+    background-color: $background-color_8;
+}
+
+.PageViews {
+    width: 330px;
+    height: 130px;
+    filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.09));
+    background-color: $background-color_9;
+}
+
+.SummaryText {
+    font-size: 19px;
+    line-height: 10px;
+    color: $color_1;
+    font-family: $font-family_1;
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+.SummaryNum {
+    font-size: 35px;
+    line-height: 10px;
+    color: $color_1;
+    font-family: $font-family_1;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.SummaryTime {
+    font-size: 17px;
+    color: $color_1;
+    font-family: $font-family_1;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Line {
+    display: flex;
+}
+.WhiteLine {
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+
+.GreyLine {
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+// -------------- Visitors-Events-Weather --------------
+.Visitors-Events-Weather {
+    display: flex;
+    gap: 50px;
+    margin-top: -15px;
+}
+
+// -------------- Visitors --------------
+
+.Visitors {
+    width: 710px;
+    height: 550px;
+    background-color: $background-color_10;
+    margin-left: 85px;
+}
+
+.VisitorsTitle {
+    font-size: 19px;
+    line-height: 10px;
+    color: black;
+    font-family: $font-family_1;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+// -------------- Events-Weather --------------
+
+.Events-Weather {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+// -------------- Events --------------
+
+.Events {
+    width: 330px;
+    height: 255px;
+    background-color: $background-color_10;
+    display: flex;
+    flex-direction: column;
+}
+
+.EventsTitle {
+    font-size: 19px;
+    line-height: 10px;
+    color: black;
+    font-family: $font-family_1;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.EventsText {
+    font-size: 19px;
+    color: black;
+    font-family: $font-family_1;
+    margin-left: 45px;
+}
+
+.EventsGreyText {
+    font-size: 19px;
+    color: #b7b7b7;
+    font-family: $font-family_1;
+    margin-left: 45px;
+}
+.EventsNum {
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.EventsGreyLine {
+    width: 230px;
+    margin-left: 46px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+}
+.p1_1 {
+    margin-right: 10px;
+    background-color: $background-color_8;
+    height: 25px;
+    width: 25px;
+}
+.p1_2 {
+    margin-right: 10px;
+    background-color: $background-color_9;
+    height: 25px;
+    width: 25px;
+}
+
+
+// -------------- Weather --------------
+
+.Weather {
+    width: 330px;
+    height: 255px;
+    background-color: $background-color_3;
+    gap: 50px;
+}
+
+
+.WeatherRightSide {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 45px;
+    align-items: self-end;
+}
+
+.WeatherIcon {
+    display: flex;
+    width: 40px;
+    height: 45px;
+    margin-bottom: 10px;
+
+}
+
+.WeatherDay {
+    font-size: 17px;
+    color: $color_1;
+    font-family: $font-family_1;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.WeatherLeftSide{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.WeatherDegree {
+    font-size: 35px;
+    line-height: 10px;
+    color: $color_1;
+    font-family: $font-family_1;
+}
+
+.WeatherTown {
+    font-size: 17px;
+    color: $color_1;
+    font-family: $font-family_1;
+}
+
+// -------------- Top10Stores-OrderStats --------------
+
+.Top10Stores-OrderStats {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+// -------------- Top10Stores --------------
+
+.Top10Stores {
+    background-color: $background-color_10;
+    margin-left: 85px;
+    height: 400px;
+    width: 600px;
+}
+
+.Title-Button {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.Top10StoresTitle {
+    font-size: 19px;
+    line-height: 10px;
+    color: black;
+    font-family: $font-family_1;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.btn {
+    height: 40px;
+}
+
+.TextOfButton {
+    font-size: 19px;
+    line-height: 10px;
+    color: black;
+    font-family: $font-family_1;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.Top10StoresText {
+    font-size: 19px;
+    color: black;
+    font-family: $font-family_1;
+    margin-left: 45px;
+}
+
+.Phone {
+    margin-bottom: 25px;
+}
+
+.PhoneText {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.PhoneGreyLine {
+    width: 485px;
+    height: 10px;
+    margin-left: 65px;
+    background-color: $background-color_11;
+    border-radius: 10px;
+}
+
+.PhoneBlueLine {
+    width: 400px;
+    height: 10px;
+    background-color: $background-color_3;
+    border-radius: 10px;
+}
+
+.PhoneRedLine {
+    width: 400px;
+    height: 10px;
+    background-color: $background-color_8;
+    border-radius: 10px;
+}
+
+.PhoneGreenLine {
+    width: 400px;
+    height: 10px;
+    background-color: $background-color_9;
+    border-radius: 10px;
+}
+
+
+
+
+// -------------- OrderStats --------------
+
+.OrderStats {
+    background-color: $background-color_10;
+    margin-right: 85px;
+    height: 400px;
+    width: 440px;
+}
+
+.OrderStatsTitle {
+    font-size: 19px;
+    line-height: 10px;
+    color: black;
+    font-family: $font-family_1;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.OrderStatsCenter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 178px;
+    bottom: 190px;
+}
+
+.OrderStatsNum {
+    font-size: 35px;
+    line-height: 10px;
+    font-family: $font-family_1;
+}
+
+.OrderStatsText {
+    font-size: 17px;
+    font-family: $font-family_1;
+    margin-left: 7px;
+}
+
+// -------------- RecentComments --------------
+
+.RecentComments {
+    width: 1090px;
+    height: 420px;
+    background-color: $background-color_10;
+    margin-left: 85px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.Comment {
+    display: flex;
+    margin-left: 45px;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.RecentCommentsTitle {
+    font-size: 19px;
+    line-height: 10px;
+    color: black;
+    font-family: $font-family_1;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.RecentCommentsText {
+    font-size: 19px;
+    color: black;
+    font-family: $font-family_1;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.RecentCommentsApprove-Date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.GreenApprove {
+    background-color: $background-color_9;
+    width: 100px;
+    height: 27px;
+    border-radius: 500px;
+    margin-left: 50px;
+}
+
+.RedApprove {
+    background-color: $background-color_8;
+    width: 100px;
+    height: 27px;
+    border-radius: 500px;
+    margin-left: 50px;
+}
+
+.TextApprove {
+    margin-left: 15px;
+    color: white;
+}
+
+.RecentCommentsDate {
+    font-size: 15px;
+    color: black;
+    font-family: $font-family_1;
+    margin-right: 70px;
+
+}
+
+.LongLine {
+    height: 2px;
+    width: 1285px;
+}
+
+.LastText {
+    font-size: 15px;
+    color: $color_4;
+    font-family: $font-family_1;
+    margin-left: 85px;
+}
+
