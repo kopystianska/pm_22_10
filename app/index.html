@@ -2,14 +2,530 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.scss">
-    <title>Lab1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Laboratory_var10</title>
 </head>
 <body>
-<div>It's my first lab!!!!</div>
+<div class="mainWrapper">
+    <section class="Menu">
+        <header class="topBg">
+            <p class="userText">
+                Muslim Mahin
+            </p>
+            <div>
+                <img src="icons/Menu%20Icon.png" alt="menuIcon">
+            </div>
+        </header>
+        <section class="LeftSideSection">
+            <div class="blueColorBg">
+                <div class="wrapper">
+                    <div class="icons">
+                        <img src="icons/Dashboard%20Icon.png" alt="menuIcon">
+                    </div>
+                    <p class="menu">
+                        Dashboard
+                    </p>
+                </div>
 
-<script src="js/js1.js"></script>
+                <div class="icons">
+                    <img src="icons/arrow.png" alt="menuIcon">
+                </div>
+
+            </div>
+            <div class="greyColorBg">
+                <div class="wrapper">
+                    <div class="icons">
+                        <img src="icons/Apps%20Icon.png" alt="menuIcon">
+                    </div>
+                    <p class="menu">
+                        Apps
+                    </p>
+                </div>
+
+                <div class="Button-arrow">
+                    <button type="button" class="btn btn"  id="menuButton"><img src="icons/arrow2.png" alt="menuIcon"></button>
+                </div>
+            </div>
+
+            <div class="greyOptions" id="optionsContainer">
+                <div class="Options">
+                    <p>MailBox</p>
+                    <p>Search</p>
+                    <p>To do List</p>
+                </div>
+            </div>
+            <script src="js/main.js"></script>
+            <div class="greyColorBg">
+                <div class="wrapper">
+                    <div class="icons">
+                        <img src="icons/Component%20Icon.png" alt="menuIcon">
+                    </div>
+
+                    <p class="menu">
+                        Components
+                    </p>
+                </div>
+
+                <div class="icons">
+                    <img src="icons/arrow.png" alt="menuIcon">
+                </div>
+
+
+            </div>
+            <div>
+                <div class="greyColorBg">
+                    <div class="wrapper">
+                        <div class="icons">
+                            <img src="icons/Layout%20Icon.png" alt="menuIcon">
+                        </div>
+                        <p class="menu">
+                            Layout
+                        </p>
+                    </div>
+
+                    <div class="icons">
+                        <img src="icons/arrow.png" alt="menuIcon">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="greyColorBg">
+                    <div class="wrapper">
+                        <div class="icons">
+                            <img src="icons/Forms%20Icon.png" alt="menuIcon">
+                        </div>
+                        <p class="menu">
+                            Forms
+                        </p>
+                    </div>
+
+                    <div class="icons">
+                        <img src="icons/arrow.png" alt="menuIcon">
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="greyColorBg">
+                    <div class="wrapper">
+                        <div class="icons">
+                            <img src="icons/Charts%20Icon.png" alt="menuIcon">
+                        </div>
+                        <p class="menu">
+                            Charts
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="greyColorBg">
+                    <div class="wrapper">
+                        <div class="icons">
+                            <img src="icons/Tables%20Icon.png" alt="menuIcon">
+                        </div>
+                        <p class="menu">
+                            Tables
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <img src="icons/arrow.png" alt="menuIcon">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="greyColorBg">
+                    <div class="wrapper">
+                        <div class="icons">
+                            <img src="icons/Calendar%20Icon.png" alt="menuIcon">
+                        </div>
+                        <p class="menu">
+                            Calendar
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="greyColorBg">
+                    <div class="wrapper">
+                        <div class="icons">
+                            <img src="icons/Map%20Icon.png" alt="menuIcon">
+                        </div>
+                        <p class="menu">
+                            Maps
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <img src="icons/arrow.png" alt="menuIcon">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="greyColorBg">
+                    <div class="greyLine">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="greyColorBg">
+                    <div class="wrapper">
+                        <div class="icons">
+                            <img src="icons/support%20Icon.png" alt="menuIcon">
+                        </div>
+                        <p class="menu">
+                            Help & Support
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </section>
+    <section class="MainPart">
+        <section class="BluePart">
+            <header class="BlueBG">
+                <div class="Search">
+                    <input class="BG" style="color: white" type="text" name="Search_text" placeholder="Search">
+                    <img class="Search_icon" src="icons/Search%20Icon.png" alt="Search">
+                </div>
+                <div class="Administrator">
+                    <div class="Administrator_Person">
+                        <img src="img/Place%20Holder.png" class="rounded-circle PhotoOfAdministrator" alt="Photo">
+                        <div class="p-2 bd-highlight NameOfAdministrator">
+                            Muslim Mahin
+                            <p class="TextAdministrator">
+                                Administrator
+                            </p>
+                        </div>
+                    </div>
+                    <div class="IconsAdministrator">
+                        <div class="Notisfication">
+                            <button type="button" class="btn position-relative">
+                                <img src="icons/Notification%20Icon.png" alt="Notification">
+                                <span class="position-fixed translate-middle p-2">
+                                    <span>
+                                        <img src="icons/Rounder.png" alt="Rounder">
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="Setting">
+                            <img class="position-absolute" src="icons/Border.png" alt="Border">
+                            <img src="icons/Setting%20Icon.png" alt="Setting">
+                        </div>
+                    </div>
+
+                </div>
+
+            </header>
+        </section>
+        <div class="d-flex bd-highlight">
+            <div class="Metrics p-2 bd-highlight">
+                <div class="Summary">
+                    <div class="UserStatus">
+                        <p class="SummaryText">USER STATUS</p>
+                        <div class="d-inline-flex">
+                            <p class="SummaryNum">5,100</p>
+                            <p class="SummaryTime">This Week</p>
+                        </div>
+                        <div class="Line">
+                            <img class="GreyLine fixed-top" src="icons/Rectangle%201.1.png" alt="line">
+                            <img class="WhiteLine fixed-bottom" src="icons/Rectangle%201.png" alt="line">
+                        </div>
+                    </div>
+                    <div class="Sales">
+                        <p class="SummaryText">SALES</p>
+                        <div class="d-inline-flex">
+                            <p class="SummaryNum">9,180</p>
+                            <p class="SummaryTime">This Month</p>
+                        </div>
+                        <div class="Line">
+                            <img class="GreyLine fixed-top" src="icons/Rectangle%202.1.png" alt="line">
+                            <img class="WhiteLine fixed-bottom" src="icons/Rectangle%202.png" alt="line">
+                        </div>
+
+                    </div>
+                    <div class="PageViews">
+                        <p class="SummaryText">PAGE VIEWS</p>
+                        <div class="d-inline-flex">
+                            <p class="SummaryNum">91,230</p>
+                            <p class="SummaryTime">This Month</p>
+                        </div>
+                        <div class="Line">
+                            <img class="GreyLine fixed-top" src="icons/Rectangle%203.1.png" alt="line">
+                            <img class="WhiteLine fixed-bottom" src="icons/Rectangle%203.png" alt="line">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="Visitors-Events-Weather">
+                    <div class="Visitors">
+                        <p class="VisitorsTitle">VISITORS</p>
+                        <div>
+                            <canvas id="myChart1" style="margin:  45px 50px 0 40px;" height="200"></canvas>
+                        </div>
+<!--                        <script src="/js/js1.js"></script>-->
+                    </div>
+                    <div class="Events-Weather">
+                        <div class="Events">
+                            <p class="EventsTitle">EVENTS</p>
+                            <div class="p1">
+                                <p class="EventsText">be reviews meetup</p>
+                                <div class="p1_1">
+                                    <p class="EventsNum">29</p>
+                                </div>
+                            </div>
+                            <img class="EventsGreyLine" src="icons/Grey%20Line.png" alt="GreyLine">
+                            <div class="p1">
+                                <p class="EventsText">Google Meetup</p>
+                                <div class="p1_2">
+                                    <p class="EventsNum">25</p>
+                                </div>
+                            </div>
+                            <img class="EventsGreyLine" src="icons/Grey%20Line.png" alt="GreyLine">
+                            <div class="p1">
+                                <p class="EventsGreyText">No More Event Schedule</p>
+                            </div>
+                            <img class="EventsGreyLine" src="icons/Grey%20Line.png" alt="GreyLine">
+
+                        </div>
+                        <div class="Weather">
+                            <div class="WeatherRightSide">
+                                <img class="WeatherIcon" src="icons/Weather%20Icon.png" alt="WeatherIcon">
+                                <p class="WeatherDay">Sunday <br> September 02</p>
+                            </div>
+                            <div class="WeatherLeftSide">
+                                <p class="WeatherDegree"> 75 °F</p>
+                                <p class="WeatherTown"> Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="Top10Stores-OrderStats">
+                    <div class="Top10Stores">
+                        <div class="Title-Button">
+                            <p class="Top10StoresTitle">TOP 10 STORES</p>
+                            <button type="button" class="btn btn-outline-dark TextOfButton ">All Stores</button>
+                        </div>
+                        <p class="Top10StoresText"> Best Seller Per Month</p>
+                        <div class="Phone">
+                            <div class="PhoneText">
+                                <p class="ModelOfPhone">1. Iphone 6</p>
+                                <p class="AmountOfPhones"> 195</p>
+                            </div>
+                            <div class="PhoneLine">
+                                <div class="PhoneGreyLine">
+                                    <div class="PhoneBlueLine"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Phone">
+                            <div class="PhoneText">
+                                <p class="ModelOfPhone">2. Iphone 5</p>
+                                <p class="AmountOfPhones"> 355</p>
+                            </div>
+                            <div class="PhoneLine">
+                                <div class="PhoneGreyLine">
+                                    <div class="PhoneRedLine"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Phone">
+                            <div class="PhoneText">
+                                <p class="ModelOfPhone">3. Iphone 7</p>
+                                <p class="AmountOfPhones"> 105</p>
+                            </div>
+                            <div class="PhoneLine">
+                                <div class="PhoneGreyLine">
+                                    <div class="PhoneGreenLine"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="OrderStats">
+                        <p class="OrderStatsTitle">ORDER STATS</p>
+                        <div>
+                            <div><canvas id="myChart2" style="margin: 30px 90px 50px 90px;"></canvas></div>
+                            <div class="OrderStatsCenter">
+                                <p class="OrderStatsNum">4,500</p>
+                                <p class="OrderStatsText">Delivered</p>
+                            </div>
+                        </div>
+<!--                        <script src="/js/js2.js"></script>-->
+                    </div>
+                </div>
+                <div class="RecentComments">
+                    <p class="RecentCommentsTitle"> RECENT COMMENTS </p>
+                    <div class="Comment">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/Recent%20comment%201.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <p class="RecentCommentsText"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis </p>
+                    </div>
+                    <div class="RecentCommentsApprove-Date">
+                        <div class="GreenApprove">
+                            <p class="TextApprove">Approved</p>
+                        </div>
+                        <div class="RecentCommentsDate">
+                            <p>August 14, 2016</p>
+                        </div>
+                    </div>
+                    <div class="Comment">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/Recent%20comment%202.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <p class="RecentCommentsText"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis </p>
+                    </div>
+                    <div class="RecentCommentsApprove-Date">
+                        <div class="RedApprove">
+                            <p class="TextApprove">Approved</p>
+                        </div>
+                        <div class="RecentCommentsDate">
+                            <p>August 14, 2016</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <img class="LongLine" src="icons/Long%20Line.png" alt="LongLine">
+                <p class="LastText">All Right Reserved 2016 © MuslimMahin</p>
+            </div>
+            <div class="RightSideSection p flex-shrink-1 flex-column bd-highlight ">
+                <div class="NewMessage">
+                    <div class="TitleText">
+                        <p>
+                            NEW MESSAGE
+                        </p>
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo1.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo2.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo3.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo4.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ChatLine">
+                    <div class="TitleText">
+                        <p>
+                            CHAT LINE
+                        </p>
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo5.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                Call Me Later..?
+                            </p>
+                        </div>
+                        <img src="icons/green%20icon.png" class="rounded-circle GreenPoint" alt="Photo">
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo6.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                Hello! bro...
+                            </p>
+                        </div>
+                        <img src="icons/green%20icon.png" class="rounded-circle GreenPoint" alt="Photo">
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo7.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                Can you help me?
+                            </p>
+                        </div>
+                        <img src="icons/green%20icon.png" class="rounded-circle GreenPoint" alt="Photo">
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo8.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                What..?
+                            </p>
+                        </div>
+                        <img src="icons/green%20icon.png" class="rounded-circle GreenPoint" alt="Photo">
+                    </div>
+                    <div class="Person">
+                        <div class="p-2 bd-highlight">
+                            <img src="img/photo8.png" class="rounded-circle PhotoOfPerson" alt="Photo">
+                        </div>
+                        <div class="p-2 bd-highlight TextOfPerson">
+                            John Partel
+                            <p class="TextTimeAgo">
+                                Pari na tao kori..!
+                            </p>
+                        </div>
+                        <img src="icons/green%20icon.png" class="rounded-circle GreenPoint" alt="Photo">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</div>
+<script src="js/scripts.min.js"></script>
 
 </body>
 </html>

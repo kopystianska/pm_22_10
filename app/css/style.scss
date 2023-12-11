@@ -101,6 +101,12 @@ body {
     text-align: left;
     margin-top: 15px;
 }
+.Options {
+    margin-left: 100px;
+}
+.Button-arrow {
+    margin-left: 15px;
+}
 .greyLine {
     width: 320px;
     height: 1px;
@@ -118,32 +124,34 @@ body {
     background-color: $background-color_3;
 }
 .BG {
+    padding-left: 15px;
+    padding-bottom: 5px;
     width: 230px;
     height: 40px;
     border-radius: 18px;
     margin-top: 20px;
     margin-left: 90px;
     background-color: $background-color_5;
+    border: none;
+    text-decoration: white;
+    color: white;
 }
 
+.Search input{
+    color: white;
+
+}
+::placeholder {
+    color: white;
+}
 .Search {
     flex-basis: 78%;
 }
-.Search_text {
-    margin: -28px 0 0 15px;
-    font-size: 17px;
-    font-weight: 300;
-    color: $color_2;
-    font-family: $font-family_1;
-}
 
 .Search_icon {
-    font-size: 20px;
-    line-height: 35px;
-    color: $color_2;
-    font-family: $font-family_2;
-    text-align: right;
-    margin-right: 15px;
+    position: relative;
+    right: 38px;
+    top: -3px;
 }
 .Administrator {
     width: 215px;
